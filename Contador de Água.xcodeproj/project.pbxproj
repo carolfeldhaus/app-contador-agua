@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82955059270FC387002DECA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82955058270FC387002DECA9 /* AppDelegate.swift */; };
+		8295505B270FC387002DECA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295505A270FC387002DECA9 /* SceneDelegate.swift */; };
+		8295505D270FC387002DECA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295505C270FC387002DECA9 /* ViewController.swift */; };
+		82955060270FC387002DECA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8295505E270FC387002DECA9 /* Main.storyboard */; };
+		82955062270FC38A002DECA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82955061270FC38A002DECA9 /* Assets.xcassets */; };
+		82955065270FC38A002DECA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82955063270FC38A002DECA9 /* LaunchScreen.storyboard */; };
+		82955070270FC38B002DECA9 /* Contador_de_A_guaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295506F270FC38B002DECA9 /* Contador_de_A_guaTests.swift */; };
+		8295507A270FC38B002DECA9 /* Contador_de_A_guaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82955079270FC38B002DECA9 /* Contador_de_A_guaUITests.swift */; };
+		8295507C270FC38B002DECA9 /* Contador_de_A_guaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295507B270FC38B002DECA9 /* Contador_de_A_guaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8295506C270FC38B002DECA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8295504D270FC387002DECA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82955054270FC387002DECA9;
+			remoteInfo = "Contador de Água";
+		};
+		82955076270FC38B002DECA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8295504D270FC387002DECA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82955054270FC387002DECA9;
+			remoteInfo = "Contador de Água";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82955055270FC387002DECA9 /* Contador de Água.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contador de Água.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82955058270FC387002DECA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8295505A270FC387002DECA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8295505C270FC387002DECA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8295505F270FC387002DECA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82955061270FC38A002DECA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82955064270FC38A002DECA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82955066270FC38A002DECA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8295506B270FC38B002DECA9 /* Contador de ÁguaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contador de ÁguaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8295506F270FC38B002DECA9 /* Contador_de_A_guaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador_de_A_guaTests.swift; sourceTree = "<group>"; };
+		82955075270FC38B002DECA9 /* Contador de ÁguaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contador de ÁguaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82955079270FC38B002DECA9 /* Contador_de_A_guaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador_de_A_guaUITests.swift; sourceTree = "<group>"; };
+		8295507B270FC38B002DECA9 /* Contador_de_A_guaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador_de_A_guaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82955052270FC387002DECA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82955068270FC38B002DECA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82955072270FC38B002DECA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8295504C270FC387002DECA9 = {
+			isa = PBXGroup;
+			children = (
+				82955057270FC387002DECA9 /* Contador de Água */,
+				8295506E270FC38B002DECA9 /* Contador de ÁguaTests */,
+				82955078270FC38B002DECA9 /* Contador de ÁguaUITests */,
+				82955056270FC387002DECA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82955056270FC387002DECA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82955055270FC387002DECA9 /* Contador de Água.app */,
+				8295506B270FC38B002DECA9 /* Contador de ÁguaTests.xctest */,
+				82955075270FC38B002DECA9 /* Contador de ÁguaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82955057270FC387002DECA9 /* Contador de Água */ = {
+			isa = PBXGroup;
+			children = (
+				82955058270FC387002DECA9 /* AppDelegate.swift */,
+				8295505A270FC387002DECA9 /* SceneDelegate.swift */,
+				8295505C270FC387002DECA9 /* ViewController.swift */,
+				8295505E270FC387002DECA9 /* Main.storyboard */,
+				82955061270FC38A002DECA9 /* Assets.xcassets */,
+				82955063270FC38A002DECA9 /* LaunchScreen.storyboard */,
+				82955066270FC38A002DECA9 /* Info.plist */,
+			);
+			path = "Contador de Água";
+			sourceTree = "<group>";
+		};
+		8295506E270FC38B002DECA9 /* Contador de ÁguaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8295506F270FC38B002DECA9 /* Contador_de_A_guaTests.swift */,
+			);
+			path = "Contador de ÁguaTests";
+			sourceTree = "<group>";
+		};
+		82955078270FC38B002DECA9 /* Contador de ÁguaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82955079270FC38B002DECA9 /* Contador_de_A_guaUITests.swift */,
+				8295507B270FC38B002DECA9 /* Contador_de_A_guaUITestsLaunchTests.swift */,
+			);
+			path = "Contador de ÁguaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82955054270FC387002DECA9 /* Contador de Água */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8295507F270FC38B002DECA9 /* Build configuration list for PBXNativeTarget "Contador de Água" */;
+			buildPhases = (
+				82955051270FC387002DECA9 /* Sources */,
+				82955052270FC387002DECA9 /* Frameworks */,
+				82955053270FC387002DECA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Contador de Água";
+			productName = "Contador de Água";
+			productReference = 82955055270FC387002DECA9 /* Contador de Água.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8295506A270FC38B002DECA9 /* Contador de ÁguaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82955082270FC38B002DECA9 /* Build configuration list for PBXNativeTarget "Contador de ÁguaTests" */;
+			buildPhases = (
+				82955067270FC38B002DECA9 /* Sources */,
+				82955068270FC38B002DECA9 /* Frameworks */,
+				82955069270FC38B002DECA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8295506D270FC38B002DECA9 /* PBXTargetDependency */,
+			);
+			name = "Contador de ÁguaTests";
+			productName = "Contador de ÁguaTests";
+			productReference = 8295506B270FC38B002DECA9 /* Contador de ÁguaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82955074270FC38B002DECA9 /* Contador de ÁguaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82955085270FC38B002DECA9 /* Build configuration list for PBXNativeTarget "Contador de ÁguaUITests" */;
+			buildPhases = (
+				82955071270FC38B002DECA9 /* Sources */,
+				82955072270FC38B002DECA9 /* Frameworks */,
+				82955073270FC38B002DECA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82955077270FC38B002DECA9 /* PBXTargetDependency */,
+			);
+			name = "Contador de ÁguaUITests";
+			productName = "Contador de ÁguaUITests";
+			productReference = 82955075270FC38B002DECA9 /* Contador de ÁguaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8295504D270FC387002DECA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					82955054270FC387002DECA9 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					8295506A270FC38B002DECA9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 82955054270FC387002DECA9;
+					};
+					82955074270FC38B002DECA9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 82955054270FC387002DECA9;
+					};
+				};
+			};
+			buildConfigurationList = 82955050270FC387002DECA9 /* Build configuration list for PBXProject "Contador de Água" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8295504C270FC387002DECA9;
+			productRefGroup = 82955056270FC387002DECA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82955054270FC387002DECA9 /* Contador de Água */,
+				8295506A270FC38B002DECA9 /* Contador de ÁguaTests */,
+				82955074270FC38B002DECA9 /* Contador de ÁguaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82955053270FC387002DECA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82955065270FC38A002DECA9 /* LaunchScreen.storyboard in Resources */,
+				82955062270FC38A002DECA9 /* Assets.xcassets in Resources */,
+				82955060270FC387002DECA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82955069270FC38B002DECA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82955073270FC38B002DECA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82955051270FC387002DECA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295505D270FC387002DECA9 /* ViewController.swift in Sources */,
+				82955059270FC387002DECA9 /* AppDelegate.swift in Sources */,
+				8295505B270FC387002DECA9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82955067270FC38B002DECA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82955070270FC38B002DECA9 /* Contador_de_A_guaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82955071270FC38B002DECA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295507A270FC38B002DECA9 /* Contador_de_A_guaUITests.swift in Sources */,
+				8295507C270FC38B002DECA9 /* Contador_de_A_guaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8295506D270FC38B002DECA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82955054270FC387002DECA9 /* Contador de Água */;
+			targetProxy = 8295506C270FC38B002DECA9 /* PBXContainerItemProxy */;
+		};
+		82955077270FC38B002DECA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82955054270FC387002DECA9 /* Contador de Água */;
+			targetProxy = 82955076270FC38B002DECA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8295505E270FC387002DECA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8295505F270FC387002DECA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82955063270FC38A002DECA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82955064270FC38A002DECA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8295507D270FC38B002DECA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8295507E270FC38B002DECA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82955080270FC38B002DECA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Contador de Água/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "contador-agua.Contador-de-A-gua";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82955081270FC38B002DECA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Contador de Água/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "contador-agua.Contador-de-A-gua";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82955083270FC38B002DECA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "contador-agua.Contador-de-A-guaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contador de Água.app/Contador de Água";
+			};
+			name = Debug;
+		};
+		82955084270FC38B002DECA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "contador-agua.Contador-de-A-guaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contador de Água.app/Contador de Água";
+			};
+			name = Release;
+		};
+		82955086270FC38B002DECA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "contador-agua.Contador-de-A-guaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Contador de Água";
+			};
+			name = Debug;
+		};
+		82955087270FC38B002DECA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ3L29UH3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "contador-agua.Contador-de-A-guaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Contador de Água";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82955050270FC387002DECA9 /* Build configuration list for PBXProject "Contador de Água" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295507D270FC38B002DECA9 /* Debug */,
+				8295507E270FC38B002DECA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8295507F270FC38B002DECA9 /* Build configuration list for PBXNativeTarget "Contador de Água" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82955080270FC38B002DECA9 /* Debug */,
+				82955081270FC38B002DECA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82955082270FC38B002DECA9 /* Build configuration list for PBXNativeTarget "Contador de ÁguaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82955083270FC38B002DECA9 /* Debug */,
+				82955084270FC38B002DECA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82955085270FC38B002DECA9 /* Build configuration list for PBXNativeTarget "Contador de ÁguaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82955086270FC38B002DECA9 /* Debug */,
+				82955087270FC38B002DECA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8295504D270FC387002DECA9 /* Project object */;
+}
