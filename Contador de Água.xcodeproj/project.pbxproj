@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82880543271075B600D77856 /* Unidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82880542271075B600D77856 /* Unidade.swift */; };
+		8288054527109B1600D77856 /* Cores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8288054427109B1600D77856 /* Cores.swift */; };
 		82955059270FC387002DECA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82955058270FC387002DECA9 /* AppDelegate.swift */; };
 		8295505B270FC387002DECA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295505A270FC387002DECA9 /* SceneDelegate.swift */; };
 		8295505D270FC387002DECA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295505C270FC387002DECA9 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82880542271075B600D77856 /* Unidade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unidade.swift; sourceTree = "<group>"; };
+		8288054427109B1600D77856 /* Cores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cores.swift; sourceTree = "<group>"; };
 		82955055270FC387002DECA9 /* Contador de Água.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contador de Água.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82955058270FC387002DECA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8295505A270FC387002DECA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,9 +107,11 @@
 				8295505A270FC387002DECA9 /* SceneDelegate.swift */,
 				8295505C270FC387002DECA9 /* ViewController.swift */,
 				8295505E270FC387002DECA9 /* Main.storyboard */,
+				82880542271075B600D77856 /* Unidade.swift */,
 				82955061270FC38A002DECA9 /* Assets.xcassets */,
 				82955063270FC38A002DECA9 /* LaunchScreen.storyboard */,
 				82955066270FC38A002DECA9 /* Info.plist */,
+				8288054427109B1600D77856 /* Cores.swift */,
 			);
 			path = "Contador de Água";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				8295505D270FC387002DECA9 /* ViewController.swift in Sources */,
 				82955059270FC387002DECA9 /* AppDelegate.swift in Sources */,
+				82880543271075B600D77856 /* Unidade.swift in Sources */,
 				8295505B270FC387002DECA9 /* SceneDelegate.swift in Sources */,
+				8288054527109B1600D77856 /* Cores.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
